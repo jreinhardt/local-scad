@@ -11,13 +11,13 @@ use <local.scad>
 module cube1(){
 	cube([10,10,10]);
 }
-cube1_1 = new_cs(origin=[5,5,10],axes =calculate_axes([0,0,1],[1,0,0]));
+cube1_1 = new_cs(origin=[5,5,10],axes=[[0,0,1],[1,0,0]]);
 
 module arm(){
 	cube([40,5,0.4]);
 }
 
-arm_1 = new_cs([5,2.5,0],axes=calculate_axes([0,0,1],[1,1,0]));
+arm_1 = new_cs([5,2.5,0],axes=[[0,0,1],[1,1,0]]);
 
 //cube1();
 //show_cs(cube1_1);
