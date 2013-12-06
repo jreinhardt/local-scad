@@ -20,6 +20,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
+/*
+local.scad local coordinate systems for OpenSCAD
+
+for more information, see https://github.com/jreinhardt/local-scad
+*/
+
 //a few utility functions
 function norm(a) = sqrt(a*a);
 function unit_vector(v) = v/norm(v);
