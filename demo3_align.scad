@@ -30,3 +30,8 @@ arm_1 = new_cs([5,2.5,0],axes=[[0,0,1],[1,1,0]]);
 cube1();
 align(arm_1,cube1_1) arm();
 
+
+//one can also displace the arm by a certain vector in the connector coordinate
+//system
+align(arm_1,cube1_1,[10,0,0]) arm();
+
